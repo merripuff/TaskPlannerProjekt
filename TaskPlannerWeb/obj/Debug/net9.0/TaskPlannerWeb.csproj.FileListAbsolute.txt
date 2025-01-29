@@ -97,3 +97,4 @@
 /Users/matveizhukov/Desktop/ProgrObiekt_Proj/TaskPlannerWeb/TaskPlannerWeb/obj/Debug/net9.0/ref/TaskPlannerWeb.dll
 /Users/matveizhukov/Desktop/ProgrObiekt_Proj/TaskPlannerWeb/TaskPlannerWeb/bin/Debug/net9.0/users.json
 /Users/matveizhukov/Desktop/ProgrObiekt_Proj/TaskPlannerWeb/TaskPlannerWeb/bin/Debug/net9.0/tasks.json
+/Users/matveizhukov/Desktop/ProgrObiekt_Proj/TaskPlannerWeb/TaskPlannerWeb/obj/Debug/net9.0/TaskPlannerWeb.sourcelink.json
