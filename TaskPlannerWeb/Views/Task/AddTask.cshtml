@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="container">
+<h1 class="text-center mt-4">Add Task</h1>
+
+<div class="card p-4">
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+    <form method="post" action="/Task/AddTask">
+        <div class="mb-3">
+            <label class="form-label">Title:</label>
+            <input type="text" class="form-control" name="title" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Description:</label>
+            <textarea class="form-control" name="description" required></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Deadline:</label>
+            <input type="date" class="form-control" name="deadline" required>
+        </div>
+        <button type="submit" class="btn btn-success">Add Task</button>
+    </form>
+</div>
+
+<a href="/Task/Index" class="btn btn-secondary mt-3">Back to List</a>
+</body>
+</html>
